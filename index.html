@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UnnaMp4's Fan Mail Website Form!</title>
+        <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .text {
+            margin-right: 20px;
+        }
+        .container {
+    display: flex;
+    align-items: center;
+}
+.text {
+    margin-right: 20px;
+}
+img {
+    position: relative;
+}
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.video-absolute-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* adjust as needed */
+}
+.video-absolute {
+    position: absolute;
+    top: 20px;   /* distance from top */
+    left: 50px;  /* distance from left */
+}
+    </style>
+</head>
+<body>
+        <div class="container">
+            <img src="Unna.png" alt="UnnaMp4 Logo">
+        <div class="text">
+            <p>Hi There! im UnnaMp4 and for my next video I want YOU (yes YOU) to send me your fan mail! (and also your personal info for no reason :]) Down Below you can see a bunch of text boxes that requires you to fill out! Have fun and I'II be awaiting for your email :] </p>
+        </div>
+    </div>
+    <div class="video-absolute-container">
+<iframe width="320" height="240" controls src="https://www.youtube.com/embed/bD2TFU9z5Zw" type="mp4" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="center-form">
+<form>
+    <label for="message">Send YOUR mail to me:</label><br>
+    <textarea id="message" name="your message" rows="12" cols="60"> </textarea><br>
+        <label for="Gender">Your Gender:</label>
+    <select id="Gender" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Rather Not Say">Rather Not Say</option>
+        <option value="Nonbinary">Nonbinary</option>
+    </select>
+    <br><br>
+         <legend>Personal Info</legend>
+        <label for="name">Your Name:</label>
+        <input type="text" id="Name" name="name"><br><br>
+        <label for="Your Email">Your Email:</label>
+        <input type="text" id="Email" name="Email"  placeholder="yournamelol@gmail.com"><br><br>
+        <label for="Number">Your Number:</label>
+        <input type="tel" id="Number" name="Number" minlength="10" maxlength="15"><br><br>
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="Age" maxlength="3"><br><br>
+        <label for="Address">Your Address:</label>
+        <input type="text" id="Address" name="Address" autocomplete="street-address"><br><br>
+     <button type="submit">Submit</button>
+    </fieldset>
+</form>
+</div>
+
+</body>
+</html>
